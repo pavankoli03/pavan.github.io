@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NEON</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <style>
+        body {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            padding: 0;
+            margin: 0;
+            min-height: 80vh;
+            background: #212324;
+        }
+        
+        .box {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            padding: 0;
+            margin: 0;
+            background: linear-gradient(120deg, rgb(37, 68, 80), hsl(308, 44%, 13%));
+            position: relative;
+            height: 400px;
+            width: 300px;
+            border-radius: 25px;
+        }
+        
+        .box::before {
+            content: '';
+            position: absolute;
+            background: #fff;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            z-index: -1;
+            border-radius: 25px;
+        }
+        
+        .box::after {
+            content: '';
+            position: absolute;
+            background: #fff;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            z-index: -2;
+            filter: blur(20px);
+            border-radius: 25px;
+        }
+        
+        .box::before,
+        .box::after {
+            background: linear-gradient(120deg, rgb(0, 225, 255), rgb(68, 67, 67), hsl(323, 100%, 51%));
+        }
+        
+        .content {
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        
+        .box:hover {
+            background-color: #212324;
+            background: rgb(53, 49, 49);
+        }
+      
+    </style>
+</head>
+
+<body>
+
+
+<div class="container">
+    <br><h1 class="text text-center " style="color: #fff"> NEON DARK CARD </h1><br><br>
+        <div class="row">
+          <div class="col-sm-4 ">
+                <div class="box">
+                     
+                        <div class="content">
+                
+                            <h1>NEON CARD</h1>
+                            <p style="color: gray"> Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Mollitia, omnis cumque.<br> sfvsdfsdfsdvsdv Rsfdsfsfsfsdfdgde<br> sfdsdfsdfsdfsdf
+                            </p>
+                        </div>
+                    </div><br>
+                    
+          </div>
+          <div class="col-sm-4">
+                <div class="box">
+                      
+                        <div class="content">
+                
+                            <h1>NEON CARD</h1>
+                            <p style="color: gray"> Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Mollitia, omnis cumque.<br> sfvsdfsdfsdvsdv Rsfdsfsfsfsdfdgde<br> sfdsdfsdfsdfsdf
+                            </p>
+                        </div>
+                    </div><br>
+                   
+          </div>
+          <div class="col-sm-4">
+                <div class="box">
+                     
+                        <div class="content">
+                
+                            <h1>NEON CARD</h1>
+                            <p style="color: gray">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Mollitia, omnis cumque.<br> sfvsdfsdfsdvsdv Rsfdsfsfsfsdfdgde<br> sfdsdfsdfsdfsdf
+                            </p><br>
+                        </div>
+                    </div><br>
+                    
+          </div>
+        </div>
+      </div>
+</body>
+
+</html>
